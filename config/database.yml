@@ -1,0 +1,10 @@
+default_env: &default
+  adapter: postgresql
+  encoding: unicode
+  database: seventh-Amanogawa-backend
+
+development:
+  <<: *default
+
+production:
+  <<: *default
